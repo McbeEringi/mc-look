@@ -1,0 +1,1 @@
+{"format_version":"1.10.0","minecraft:client_entity":{"description":{"identifier":"minecraft:iron_golem","scripts":{"animate":["hbar"]},"animations":{"hbar":"controller.animation.hbar"},"particle_effects":{"hbar":"toko:hbar"},"spawn_egg":{"base_color":"#dbcdc2","overlay_color":"#74a332"}}}}
