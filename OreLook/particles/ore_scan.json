@@ -6,7 +6,10 @@
 			"basic_render_parameters":{"material":"particles_alpha","texture":"textures/particle/particles"}
 		},
 		"events":{
-			"ping":{"particle_effect":{"effect":"toko:ore_ping","type":"emitter"}}
+			"ping":{
+				"particle_effect":{"effect":"toko:ore_ping","type":"emitter"},
+				"sound_effect":{"event_name":"chime.amethyst_block"}
+			}
 		},
 		"components":{
 			"minecraft:emitter_rate_steady":{"spawn_rate":1024,"max_particles":2048},
